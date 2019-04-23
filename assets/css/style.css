@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+/*********************************/
+/*             HEADER            */
+/*********************************/
+header{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+header img{
+    width: 200px
+}
+
+header h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.8em;
+}
+
+header h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+/*********************************/
+/*             FOOTER            */
+/*********************************/
+footer{
+    background: #133148;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.credits{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 0.8em;
+    justify-content: center;
+}
+
+.credits img{
+    width: 100px;
+    padding: 5px 0px;
+}
+
+.credits p{
+    color: #FFFFFF;
+}
+
+/*********************************/
+/*          RESPONSIVE           */
+/*********************************/
+@media screen and (max-height: 315px) {
+    footer{
+        bottom: inherit;
+    }
+}
