@@ -46,6 +46,14 @@ const gestionPage = {
                 data.contentType = "image/x-icon";
                 data.dossier = "assets/img/";
                 break;
+            case ".ttf":
+                data.contentType = "";
+                data.dossier = "assets/fonts/";
+                break;
+            case ".ogg":
+                data.contentType = "audio/ogg";
+                data.dossier = "assets/sounds/";
+                break;
             default: console.log("Vous n'avez pas défini cette extension ! (ERROR FROM : gestion-page.js)")
         }
         return data;
